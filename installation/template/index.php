@@ -49,17 +49,18 @@ JText::script('INSTL_FTP_SETTINGS_CORRECT');
 	</head>
 	<body>
 		<!-- Header -->
-		<div class="header">
-			<img src="<?php echo $this->baseurl ?>/template/images/joomla.png" alt="Joomla" />
+              <div class="header">
+			<img src="<?php echo $this->baseurl ?>/template/images/joomla.png" alt="" />
 			<hr />
 			<h5>
 				<?php
-				$joomla = '<a href="http://www.joomla.org">Joomla!<sup>&#174;</sup></a>';
-				$license = '<a data-toggle="modal" href="#licenseModal">' . JText::_('INSTL_GNU_GPL_LICENSE') . '</a>';
-				echo JText::sprintf('JGLOBAL_ISFREESOFTWARE', $joomla, $license);
+				$witryna = 'Nazwa Firmy<sup>&#174;</sup></a>';
+				
+				echo JText::sprintf('JGLOBAL_ISFREESOFTWARE', $witryna);
 				?>
 			</h5>
 		</div>
+
 		<!-- Container -->
 		<div class="container">
 			<jdoc:include type="message" />
