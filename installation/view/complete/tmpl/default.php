@@ -61,13 +61,13 @@ defined('_JEXEC') or die;
 				</tfoot>
 			</table>
 		</div>
-		<div id="languages" class="span6">
+	<!--	<div id="languages" class="span6">
 			<h3><?php echo JText::_('INSTL_COMPLETE_LANGUAGE_1'); ?></h3>
 			<hr class="hr-condensed" />
 			<p><?php echo JText::_('INSTL_COMPLETE_LANGUAGE_DESC'); ?></p>
 			<p><a href="#" class="btn btn-primary" id="instLangs" onclick="return Install.goToPage('languages');"><i class="icon-arrow-right icon-white"></i> <?php echo JText::_('INSTL_COMPLETE_INSTALL_LANGUAGES'); ?></a></p>
 			<p><?php echo JText::_('INSTL_COMPLETE_LANGUAGE_DESC2'); ?></p>
-		</div>
+		</div> -->
 	</div>
 
 	<?php if ($this->config) : ?>

@@ -50,7 +50,7 @@ JText::script('INSTL_FTP_SETTINGS_CORRECT');
 	<body>
 		<!-- Header -->
               <div class="header">
-			<img src="<?php echo $this->baseurl ?>/template/images/joomla.png" alt="" />
+			<img src="<?php echo $this->baseurl ?>/template/images/logobasoft.png" alt="" />
 			<hr />
 			<h5>
 				<?php
