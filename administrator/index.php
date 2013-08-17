@@ -8,7 +8,7 @@
 
 if (version_compare(PHP_VERSION, '5.3.1', '<'))
 {
-	die('Your host needs to use PHP 5.3.1 or higher to run this version of Joomla!');
+	die('Your host needs to use PHP 5.3.1 or higher to run this website');
 }
 
 /**
@@ -53,7 +53,7 @@ if (get_magic_quotes_gpc())
 	}
 	else
 	{
-		JFactory::getApplication()->enqueueMessage('Your host needs to disable magic_quotes_gpc to run this version of Joomla!', 'Error');
+		JFactory::getApplication()->enqueueMessage('Your host needs to disable magic_quotes_gpc to run this version of website', 'Error');
 	}
 }
 
