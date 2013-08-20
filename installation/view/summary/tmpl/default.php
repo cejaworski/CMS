@@ -25,7 +25,7 @@ $prev = $useftp ? 'ftp' : 'database';
 		</div>
 	</div>
 <!--
-	<h3><?php echo JText::_('INSTL_FINALISATION'); ?></h3>
+	<h3><?php /** echo JText::_('INSTL_FINALISATION'); ?></h3>
 	<hr class="hr-condensed" />
 
 	<div class="control-group">
@@ -37,7 +37,7 @@ $prev = $useftp ? 'ftp' : 'database';
 				<?php echo $this->form->getInput('sample_file'); ?>
 			</div>
 			<p class="help-block">
-				<?php echo JText::_('INSTL_SITE_INSTALL_SAMPLE_DESC'); ?>
+				<?php echo JText::_('INSTL_SITE_INSTALL_SAMPLE_DESC'); **/?>
 			</p>
 		</div>
 	</div>
