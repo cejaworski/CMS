@@ -1,28 +1,12 @@
 <?php
-/**
- * @package		Joomla
- * @copyright	Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.
- * @license		GNU General Public License version 2 or later; see LICENSE.txt
- *
- * -------------------------------------------------------------------------
- * THIS SHOULD ONLY BE USED AS A LAST RESORT WHEN THE WEB INSTALLER FAILS
- *
- * If you are installing Joomla! manually i.e. not using the web browser installer
- * then rename this file to configuration.php e.g.
- *
- * UNIX -> mv configuration.php-dist configuration.php
- * Windows -> rename configuration.php-dist configuration.php
- *
- * Now edit this file and configure the parameters for your site and
- * database.
- */
+
 class JConfig {
 	/* Site Settings */
 	public $offline = '0';
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Joomla!';				// Name of Joomla site
+	public $sitename = '';				
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -41,7 +25,7 @@ class JConfig {
 	public $secret = 'FBVtggIk5lAzEU9H'; 		// Change this to something more secure
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://www.arfa.pl';
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = '';
@@ -50,7 +34,7 @@ class JConfig {
 	public $ftp_enable = '';
 	public $tmp_path = '/tmp';
 	public $log_path = '/var/logs';
-	public $live_site = ''; 					// Optional, Full url to Joomla install.
+	public $live_site = ''; 					
 	public $force_ssl = 0;						// Force areas of the site to be SSL ONLY.  0 = None, 1 = Administrator, 2 = Both Site and Administrator
 
 	/* Locale Settings */
@@ -80,8 +64,8 @@ class JConfig {
 	public $debug_lang = '0';
 
 	/* Meta Settings */
-	public $MetaDesc = 'Joomla! - the dynamic portal engine and content management system';
-	public $MetaKeys = 'joomla, Joomla';
+	public $MetaDesc = '';
+	public $MetaKeys = 'arfa';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';

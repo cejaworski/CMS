@@ -1,23 +1,9 @@
 <?php
-/**
- * @package     Joomla.Installation
- * @subpackage  Model
- *
- * @copyright   Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
 
 defined('_JEXEC') or die;
 
 jimport('joomla.filesystem.file');
 
-/**
- * Configuration setup model for the Joomla Core Installer.
- *
- * @package     Joomla.Installation
- * @subpackage  Model
- * @since       3.1
- */
 class InstallationModelConfiguration extends JModelBase
 {
 	/**
@@ -91,7 +77,7 @@ class InstallationModelConfiguration extends JModelBase
 		$registry->set('secret', JUserHelper::genRandomPassword(16));
 		$registry->set('gzip', 0);
 		$registry->set('error_reporting', 'default');
-		$registry->set('helpurl', 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}');
+		$registry->set('helpurl', 'http://www.arfa.pl');
 		$registry->set('ftp_host', isset($options->ftp_host) ? $options->ftp_host : '');
 		$registry->set('ftp_port', isset($options->ftp_host) ? $options->ftp_port : '');
 		$registry->set('ftp_user', (isset($options->ftp_save) && $options->ftp_save && isset($options->ftp_user)) ? $options->ftp_user : '');
