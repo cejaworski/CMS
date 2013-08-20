@@ -50,11 +50,11 @@ JText::script('INSTL_FTP_SETTINGS_CORRECT');
 	<body>
 		<!-- Header -->
               <div class="header">
-			<img src="<?php echo $this->baseurl ?>/template/images/logobasoft.png" alt="" />
+			<img src="<?php echo $this->baseurl ?>/template/images/arfa_logo.png" alt="" />
 			<hr />
 			<h5>
 				<?php
-				$witryna = 'Nazwa Firmy<sup>&#174;</sup></a>';
+				$witryna = 'Instalator stron internetowych firmy ARFA<sup>&#174;</sup></a>';
 				
 				echo JText::sprintf('JGLOBAL_ISFREESOFTWARE', $witryna);
 				?>
