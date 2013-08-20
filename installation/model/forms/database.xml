@@ -34,7 +34,7 @@
 		<fieldset name="advanced">
 			<field name="db_old" type="radio" id="db_old" class="btn-group"
 				label="INSTL_DATABASE_OLD_PROCESS_LABEL"
-				default="backup"
+				default="remove"
 				required="true"
 			>
 				<option value="backup">INSTL_DATABASE_FIELD_VALUE_BACKUP</option>
