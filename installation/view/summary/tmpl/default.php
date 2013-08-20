@@ -24,7 +24,7 @@ $prev = $useftp ? 'ftp' : 'database';
 			<a class="btn btn-primary" href="#" onclick="Install.submitform();" rel="next" title="<?php echo JText::_('INSTL_SUMMARY_INSTALL'); ?>"><i class="icon-arrow-right icon-white"></i> <?php echo JText::_('INSTL_SUMMARY_INSTALL'); ?></a>
 		</div>
 	</div>
-
+<!--
 	<h3><?php echo JText::_('INSTL_FINALISATION'); ?></h3>
 	<hr class="hr-condensed" />
 
@@ -41,7 +41,7 @@ $prev = $useftp ? 'ftp' : 'database';
 			</p>
 		</div>
 	</div>
-
+-->
 	<h3><?php echo JText::_('INSTL_STEP_SUMMARY_LABEL'); ?></h3>
 	<hr class="hr-condensed" />
 
